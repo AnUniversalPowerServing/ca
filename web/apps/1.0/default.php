@@ -12,17 +12,82 @@
 </head>
 <body>
 <?php include_once 'templates/pages/app_header_general.php'; ?>
-<div class="container-fluid">
+<div class="container-fluid" style="background-color:#ff5722;color:#fff;">
+
   <div class="row">
-    <div class="col-sm-6" style="padding-top:30px;padding-bottom:30px;background-color:#ff5722;color:#fff;">
+    <div class="col-sm-6" style="padding-top:30px;padding-bottom:30px;">
 	  <div><b>WE CONNECT</b></div>
 	  <div><h2><b>Builders, Buyers, Sellers and so on</b></h2></div>
 	  <div><b>Worlds #1 Construction Industry's Platform</b></div>
+	  <div align="center" class="mtop15p">
+	    <button class="btn btn-default"><b>See How it works?</b></button>
+	  </div>
+	</div>
+	<div class="col-sm-6" style="padding-top:30px;padding-bottom:30px;">
+	  <div class="list-group">
+	    <div class="list-group-item">
+	       <!-- -->
+		   <div class="container-fluid" style="color:#000;">
+		     <div class="row">
+			 
+			   <div class="col-sm-12">
+			     <h4><b>Tell us you need</b></h4><hr/>
+			   </div><!-- col-sm-12 -->
+			   
+			 </div><!-- row  -->
+			 <div class="row">
+			 
+			   <div class="col-sm-12">
+			   
+			     <div class="form-group">
+				   <label>Product / Service</label>
+				   <input type="text" class="form-control" placeholder="Enter your Product / Service"/>
+				 </div>
+				 
+			   </div><!-- col-sm-12 -->
+			 
+			 </div><!-- row  -->
+			 <div class="row">
+			 
+			   <div class="col-sm-6"> 
+			   
+				 <div class="form-group">
+				   <label>Expected Price</label>
+				   <div class="input-group">
+				     <span class="input-group-addon"><b>Rs.</b></span>
+				     <input type="text" class="form-control" placeholder="Enter your Expected Price"/>
+				   </div>
+				 </div>
+				 
+			   </div><!-- col-sm-6 -->
+			   <div class="col-sm-6"> 
+			   
+				 <div class="form-group">
+				   <label>Quantity</label>
+				   <select class="form-control">
+				     <option value="">Select Quantity</option>
+				   </select>
+				 </div> 
+				 
+			   </div><!-- col-sm-6 -->
+			   
+			 </div><!-- row  -->
+			 <div class="row">
+			 
+				<div class="col-sm-6"></div>
+				<div class="col-sm-6">
+				  <button class="btn btn-default pull-right"><b>Get Best Quotation</b></button>
+				</div>
+				
+			 </div><!-- row -->
+		   </div><!-- container-fluid -->
+		   <!-- -->
+	    </div><!-- list-group-item -->
+	  </div><!-- list-group -->
+
 	</div>
   </div>
-  
-  <div class="row"><div class="col-sm-12"><hr/></div></div>
-  
+
 </div>
 
 <div class="container-fluid">
